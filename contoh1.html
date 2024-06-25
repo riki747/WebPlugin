@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Tugas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            padding: 10px;
+        }
+        header, nav, main, aside, footer {
+            padding: 20px;
+            margin: 10px;
+        }
+        header, footer {
+            background-color: #1100ff;
+            text-align: center;
+        }
+        nav {
+            background-color: #646262;
+            color: white;
+        }
+        nav a {
+            color: rgb(255, 255, 255);
+            padding: 17px 40px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+        }
+        main {
+            display: flex;
+            flex-direction: column; /* Mengubah arah menjadi vertikal */
+        }
+        main article {
+            margin-bottom: 20px; /* Menambahkan margin bawah untuk pemisahan antar artikel */
+        }
+        main {
+            display: flex;
+        }
+        main article {
+            flex: 10px;
+            margin-right: 40px;
+        }
+        aside {
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 0px;
+        }
+        section {
+            display: flex;
+            flex-direction: row; /* Menjaga gambar horizontal */
+            align-items: center;
+            margin-bottom: 10%; 
+        }
+        section img {
+            max-width: 100%;
+            margin-right: 10px; /* Menambahkan jarak antara gambar dan teks */
+        }
+        footer {
+            background-color: #000000;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog Saya</h1>
+    </header>
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Tentang</a>
+        <a href="#">Kontak</a>
+    </nav>
+    <main>
+        <article>
+            <h2>Ayam</h2>
+            <p>Ayam merupakan hewan darat pemakan biji  bijian </p>
+        </article>
+        <article>
+            <h2>Hewan Air</h2>
+            <p>Ini adalah paragraf pertama dalam artikel kedua. Ini berisi beberapa konten menarik tentang topik yang berbeda.</p>
+        </article>
+        <aside>
+            <h2>Tentang Penulis</h2>
+            <p>Informasi singkat tentang penulis blog ini. Penulis adalah seorang blogger yang suka berbagi informasi menarik.</p>
+        </aside>
+    </main>
+    <section>
+        <img src="cdnwpedutorenews.gramedia.net/wp-content/uploads/2021/08/21090650/bj-habibie.jpg" alt="Foto 1">
+        <p>Ini adalah keterangan singkat untuk foto pertama.</p>
+    </section>
+    <section>
+        <img src="foto2.jpg" alt="Foto 2">
+        <p>Ini adalah keterangan singkat untuk foto kedua.</p>
+    </section>
+    <section>
+        <img src="foto3.jpg" alt="Foto 3">
+        <p>Ini adalah keterangan singkat untuk foto ketiga.</p>
+    </section>
+    <footer>
+        <p>Hak Cipta 2024</p>
+    </footer>
+</body>
+</html>
